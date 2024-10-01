@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    text-align:center;
+    
+}
+h1{
+    font-size: 50px;
+    color:dodgerblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    gap: 1.5vmin;
+    margin-top: 50px;
+    
+}
+
+.reset:hover,.newgame:hover{
+    /* background-color:#4C95D0; */
+    border: 2px solid  #32292F;
+    /* color:  #D1C6AD; */
+    transition:ease-in-out;
+    transition-duration: 0.4s;
+    /* height: 20vh;
+    width: 20vh; */
+    border-radius: 50px;
+}
+.reset:active,.newgame:active{
+    box-shadow: 2px 2px 5px #fc894d
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: centre;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+}
+.box{
+    background-color: #D1C6AD;
+    height: 18vh;
+    width: 18vh;
+    border-radius:17px;
+    border: 5px dashed #5A514F;
+    z-index: 1;
+    box-shadow: 0 0 1rem rgba(0,0,4,0.3);
+    font-size: 70px;
+    color: #32292F;
+    
+}
+.box:hover{
+    background-color:#fff;
+    border: 5px dashed  #32292F;
+    /* color:  #D1C6AD; */
+    transition:ease-in-out;
+    transition-duration: 0.2s;
+    height: 20vh;
+    width: 20vh;
+}
+.box:active{
+    box-shadow: 2px 2px 5px #fc894d
+}
+.reset{
+    height:35px;
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    background-color:  #D1C6AD;
+    font-size: 15px;
+    color: #32292F;
+}
+.newgame{
+    height:35px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    background-color:  #D1C6AD;
+    font-size: 15px;
+    color: #32292F;
+    
+}
+
+#msg{
+    color:deeppink;
+    font-size: 8vmin;
+    margin-bottom: 15px;
+    font-family:cursive
+}
+.msgcon{
+    height: 20vmin;
+}
+.hide{
+    display:none;
+}
